@@ -6,6 +6,6 @@ dependencies:
   override:
     - docker build -t docker-node .
 
-test
+test:
   override:
     - docker run docker-node npm test
